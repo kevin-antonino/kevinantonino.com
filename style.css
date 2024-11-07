@@ -18,18 +18,18 @@ body {
 	}
 
 .page-wrapper {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 778px;
-        min-height: 100%;
-        padding: 5px;
-        min-width: 778px;
-        border-left: 2px solid #BA41C3;
-        border-right: 2px solid #F386FB;
-        padding-bottom: 150px;
-        background-color: aqua;
-        }
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 778px;
+    min-height: 100%;
+    padding: 5px;
+    min-width: 778px;
+    border-left: 2px solid #BA41C3;
+    border-right: 2px solid #F386FB;
+    padding-bottom: 150px;
+    background-color: aqua;
+    }
 
 /* Banner */
 header {
@@ -49,18 +49,20 @@ p, h1{
     border-right: 5px solid #000;
     padding-left: 5px;
     padding-right: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
     }
 p{
     font-size: small;
     border-bottom: 5px solid #000;
     margin-top:0;
     font-style: italic;
+    margin-bottom: 5px;
     }
 h1{ 
     font-size: large;
     border-top: 5px solid #000;
     border-bottom: 1px solid #000;
-    margin-bottom: 0;
     font-style: bold;
     }
 
@@ -80,8 +82,25 @@ a:hover, a:focus, a:active {
     color: #9685BA;
     }
 
-.menu {
-    margin-right: 90%;
+.splitPage{
+    display: flex; 
+    margin-top: 5px;
+    height: 100%;
+}
+
+.contentContainer{
+    display: table;
+    width:83%;
+    background-color: #000;
+    justify-self: right;
+    margin-left: 5px;
+    height: 100%;
+}
+
+.menuContainer {
+    justify-self: left;
+    width: 17%;
+    display: table;
 }
 
 
