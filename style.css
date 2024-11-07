@@ -1,0 +1,88 @@
+/* Cascade Style Sheet to define a default style for kevinantonino.com */
+/* This file based on 'Tranquille' by Dave Shea */
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+/* Body */
+body { 
+    margin: 0;
+    padding: 0;
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+    background-color: #EBF4E1;
+    text-align: center;
+	}
+
+.page-wrapper {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 778px;
+        min-height: 100%;
+        padding: 5px;
+        min-width: 778px;
+        border-left: 2px solid #BA41C3;
+        border-right: 2px solid #F386FB;
+        padding-bottom: 150px;
+        background-color: aqua;
+        }
+
+/* Banner */
+header {
+    width: 770px;
+    height: 229px;
+    background-image: url('Header.png');
+    border: 5px solid #000;
+    background-size: cover;  
+    background-position: center; 
+    }
+
+/* Text boxes */
+p, h1{ 
+	text-align: left;
+    background-color: #F386FB;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+p{
+    font-size: small;
+    border-bottom: 5px solid #000;
+    margin-top:0;
+    font-style: italic;
+    }
+h1{ 
+    font-size: large;
+    border-top: 5px solid #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 0;
+    font-style: bold;
+    }
+
+/* Links */
+a:link { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #B7A5DF;
+    }
+a:visited { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #D4CDDC;
+    }
+a:hover, a:focus, a:active { 
+    text-decoration: underline; 
+    color: #9685BA;
+    }
+
+.menu {
+    margin-right: 90%;
+}
+
+
+
