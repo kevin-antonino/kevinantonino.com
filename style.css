@@ -9,11 +9,10 @@ html {
 
 /* Body */
 body { 
-    margin: 0;
     padding: 0;
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
-    background-color: #EBF4E1;
+    background-color: rgb(192, 192, 192);
     text-align: center;
 	}
 
@@ -25,10 +24,11 @@ body {
     min-height: 100%;
     padding: 5px;
     min-width: 778px;
-    border-left: 2px solid #BA41C3;
-    border-right: 2px solid #F386FB;
+    border-left: 2px solid #636363;
+    border-right: 2px solid #636363;
+    border-top: 2px solid #636363;
     padding-bottom: 150px;
-    background-color: aqua;
+    background-color: rgb(146, 169, 187);
     }
 
 /* Banner */
@@ -36,7 +36,7 @@ header {
     width: 770px;
     height: 229px;
     background-image: url('Header.png');
-    border: 5px solid #000;
+    border: 2px solid #636363;
     background-size: cover;  
     background-position: center; 
     }
@@ -44,25 +44,25 @@ header {
 /* Text boxes */
 p, h1{ 
 	text-align: left;
-    background-color: #F386FB;
-    border-left: 5px solid #000;
-    border-right: 5px solid #000;
-    padding-left: 5px;
-    padding-right: 5px;
+    background-color: #ffefaade;
+    border-left: 2px solid #636363;
+    border-right: 2px solid #636363;
+    padding-left: 2px;
+    padding-right: 2px;
     margin-bottom: 0;
     margin-top: 0;
     }
 p{
     font-size: small;
-    border-bottom: 5px solid #000;
+    border-bottom: 2px solid #636363;
     margin-top:0;
     font-style: italic;
     margin-bottom: 5px;
     }
 h1{ 
     font-size: large;
-    border-top: 5px solid #000;
-    border-bottom: 1px solid #000;
+    border-top: 2px solid #636363;
+    border-bottom: 1px solid #636363;
     font-style: bold;
     }
 
@@ -91,7 +91,6 @@ a:hover, a:focus, a:active {
 .contentContainer{
     display: table;
     width:83%;
-    background-color: #000;
     justify-self: right;
     margin-left: 5px;
     height: 100%;
