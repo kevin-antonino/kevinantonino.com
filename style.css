@@ -13,7 +13,6 @@ body {
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
     background-color: rgb(192, 192, 192);
-    text-align: center;
 	}
 
 .page-wrapper {
@@ -33,7 +32,7 @@ body {
 
 /* Banner */
 header {
-    width: 770px;
+    width: auto;
     height: 229px;
     background-image: url('Header.png');
     border: 2px solid #636363;
@@ -42,17 +41,15 @@ header {
     }
 
 /* Text boxes */
-p, h1{ 
+p, h1, ul{ 
 	text-align: left;
     background-color: #ffefaade;
     border-left: 2px solid #636363;
     border-right: 2px solid #636363;
-    padding-left: 2px;
-    padding-right: 2px;
     margin-bottom: 0;
     margin-top: 0;
     }
-p{
+p, ul{
     font-size: small;
     border-bottom: 2px solid #636363;
     margin-top:0;
@@ -64,7 +61,17 @@ h1{
     border-top: 2px solid #636363;
     border-bottom: 1px solid #636363;
     font-style: bold;
+	padding-left: 8px;
+	margin-top: 5px;
     }
+p{
+	padding-left: 8px;	
+	}
+ul{
+	list-style-type: circle;
+	padding-left: 25px;
+	margin: 0;
+}	
 
 /* Links */
 a:link { 
@@ -82,22 +89,18 @@ a:hover, a:focus, a:active {
     color: #9685BA;
     }
 
+/* Page Organization Containers */
 .splitPage{
     display: flex; 
-    margin-top: 5px;
     height: 100%;
 }
-
 .contentContainer{
     display: table;
     width:83%;
-    justify-self: right;
-    margin-left: 5px;
     height: 100%;
+	margin-left: 5px;
 }
-
 .menuContainer {
-    justify-self: left;
     width: 17%;
     display: table;
 }
