@@ -20,10 +20,10 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 778px;
+    width: 800px;
+	min-width: 800px;
     min-height: 100%;
     padding: 5px;
-    min-width: 778px;
     border: 7px ridge #636363;
     padding-bottom: 150px;
     background-color: #d1d7e4;
@@ -33,7 +33,7 @@ body {
 /* Banner */
 header {
     width: auto;
-    height: 229px;
+    height: 230px;
     background-image: url('Header.png');
 	border-right: 5px ridge #636363;
 	border-bottom: 5px ridge #636363;
@@ -44,7 +44,7 @@ header {
     }
 
 /* Text boxes */
-p, h1, ul{ 
+p, h1, ul, h2{ 
 	text-align: left;
 	background-image: url('textures/egg-shell.png');
     border-left: 2px ridge #636363;
@@ -65,14 +65,31 @@ h1{
     font-size: large;
     border-top: 2px ridge #636363;
     border-bottom: 1px solid #636363;
-    font-style: bold;
 	padding-left: 8px;
 	margin-top: 5px;
     }
+h2 {
+	background-color: rgba(255, 255, 255, 0.7);
+    font-size: large;
+	text-align: center;
+    border-top: 2px ridge #636363;
+	border-left: 2px ridge #636363;
+    border-bottom: 5px ridge #636363;
+	border-right: 5px ridge #636363;
+    font-style: bold;
+	padding-left: 8px;
+	margin-top: 5px;
+	letter-spacing: 10px;
+	font-weight: lighter;
+	line-height: 1.75;
+	text-shadow: 2px 2px 5px grey;
+	font-size: larger;
+}	
 p{
 	padding-left: 8px;	
 	}
 ul{
+	font-weight: bold;
 	list-style-type: circle;
 	padding-left: 25px;
 	margin: 0;
@@ -80,17 +97,18 @@ ul{
 
 /* Links */
 a:link { 
-    font-weight: bold; 
+	font-weight: bold;
     text-decoration: none; 
-    color: #B7A5DF;
+    color: black;
     }
 a:visited { 
-    font-weight: bold; 
+	font-weight: bold;
     text-decoration: none; 
-    color: #D4CDDC;
+    color: black;
     }
 a:hover, a:focus, a:active { 
-    text-decoration: underline; 
+	font-style: bold; 
+    text-decoration: line-through; 
     color: #9685BA;
     }
 
