@@ -10,9 +10,10 @@ html {
 /* Body */
 body { 
     padding: 0;
-	font: garamond;
+	font-family: 'EB Garamond, Medium', 'Garamond', 'Times New Roman', serif;
 	line-height: 1.5;
-    background-color: rgb(192, 192, 192);
+    background-color: #2a0c07;
+    color: #2a0c07;
 	background-image: url('textures/buried.png');
 	}
 
@@ -20,20 +21,20 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 800px;
-	min-width: 800px;
+    width: 900px;
+	min-width: 900px;
     min-height: 100%;
     padding: 5px;
     border: 7px ridge #636363;
     padding-bottom: 150px;
-    background-color: #d1d7e4;
+    background-color: #c6b49f;
 	background-image: url('textures/egg-shell.png');
     }
 
 /* Banner */
 header {
     width: auto;
-    height: 230px;
+    height: 270px;
     background-image: url('Header.png');
 	border-right: 5px ridge #636363;
 	border-bottom: 5px ridge #636363;
@@ -53,7 +54,7 @@ p, h1, ul, h2{
     margin-top: 0;
     }
 p, ul{
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: #ffffff4f;
     font-size: small;
     border-bottom: 5px ridge #636363;
     margin-top:0;
@@ -61,7 +62,7 @@ p, ul{
     margin-bottom: 5px;
     }
 h1{ 
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: #ffffff4f;
     font-size: large;
     border-top: 2px ridge #636363;
     border-bottom: 1px solid #636363;
@@ -69,7 +70,7 @@ h1{
 	margin-top: 5px;
     }
 h2 {
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: #ffffff4f;
     font-size: large;
 	text-align: center;
     border-top: 2px ridge #636363;
@@ -128,6 +129,3 @@ a:hover, a:focus, a:active {
     width: 17%;
     display: table;
 }
-
-
-
